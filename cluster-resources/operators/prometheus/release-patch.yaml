@@ -1,0 +1,39 @@
+    #############################################################################
+    #############################################################################
+    ######### Managed by Terraform, not safe to change ##########################
+    #############################################################################
+    #############################################################################
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: prometheus-operator
+  labels:
+    service: prometheus-operator
+  annotations:
+  namespace: monitoring
+spec:
+  values:
+    ## Hosts is a valid FQDN
+    prometheus:
+      ingress:
+        enabled: true
+        annotations:
+          external-dns.alpha.kubernetes.io/hostname: prometheus.albefaedda.local
+        hosts:
+          - prometheus.albefaedda.local
+        tls:
+          - secretName: prometheus-cert
+            hosts:
+              - prometheus.albefaedda.local
+        pathType: Prefix
+
+    grafana:
+      ingress:
+        annotations:
+          external-dns.alpha.kubernetes.io/hostname: grafana.albefaedda.local
+        hosts:
+          - grafana.albefaedda.local
+        tls:
+          - secretName: grafana-cert
+            hosts:
+              - grafana.albefaedda.local
