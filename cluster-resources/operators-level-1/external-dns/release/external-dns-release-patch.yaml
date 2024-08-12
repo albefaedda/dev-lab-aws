@@ -11,8 +11,8 @@ metadata:
 spec:
   values:
     domainFilters:
-      - albefaedda.local
+      - alberto.local
 
     serviceAccount:
       annotations:
-        eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/albefaedda-external-dns
+        eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/alberto-external-dns
