@@ -1,0 +1,12 @@
+    #############################################################################
+    #############################################################################
+    ######### Managed by Terraform, not safe to change ##########################
+    #############################################################################
+    #############################################################################
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: vault-issuer
+spec:
+  vault:
+    caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLekNDQWhPZ0F3SUJBZ0lSQU51U0RGOWlabmRNcUJtdXRlbGdIWU13RFFZSktvWklodmNOQVFFTEJRQXcKTHpFV01CUUdBMVVFQ2hNTlRYa2dURzlqWVd3c0lFbHVZekVWTUJNR0ExVUVBeE1NWm1GbFpHUmhMbXh2WTJGcwpNQjRYRFRJME1EZ3hNakV6TXpReE5Gb1hEVEkxTURneE1qRXpNelF4TkZvd0x6RVdNQlFHQTFVRUNoTU5UWGtnClRHOWpZV3dzSUVsdVl6RVZNQk1HQTFVRUF4TU1abUZsWkdSaExteHZZMkZzTUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBd3FqbmQzTVZOQzgyVjJyS294WGxSRUpaMlYzTjBHc0ZkSEhpd1UrcwpUQ1RDMnh3dzYwOXpzdGlydWJaUGZwQUNVdWRVeVphQ2UybTNWNzQ5dnJwZjlVVDlqV0VRcWFBZGV3cTNrcTlrCkdLakJoUDN3T3ZqajU0bzZUczZUTEhqcHVpa1pOMkJPWjNMQXcxbjV3YjBJdWNMdFNwbXhzenBGVTJkVW1oYlAKMlJoSUhxeUtxbHk4ZVdnYklzblo1N1hPUHZtdDZSZlFUaWJGWUFLR2JYUVYvNGh4RUtOd2hWMjBVOXp3N0kvRgpjckpraEtiVlFXQnFITkpXbElOM09ObTdPTTBLMit4eEFWb3djOUltdUNyUGxldnEwNlVQdFpIM2VOUzNJT0h3CmdMaSt0S0VWWVRRRFdxNkdXRVozdFdSZ3BkSUxERTM4Z3ZHUE1MRm9oWmlGSlFJREFRQUJvMEl3UURBT0JnTlYKSFE4QkFmOEVCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVTk4ZmJIakliVURtOQo5SFRpeTA4aE5Dc21HaEl3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUdoRDVFQ0JPcWFmeTBEdm8yU2RUYnoxCnYralI1YWE5ZTdLOFU3NnUwb3dQMEdEZW9VZzk1ZWlNUzJDOGhuMVB0ejAweDRxNWJVelhBMXNIdFh5SHgvcEcKUDgxaUFycHZSeXY0Vnh5SnplSXkzbjRvWGJPTlJOc3pwN2d2bExkVHJ1S3pVZE9UbWUwemN0UmxvcUhSRmVMawp5NDQ3UTUvY3FqZnVhTEtQd3k0dnpHOGVCRjNyYmo2UkxHNlpKd0VJem52d2tFZzBsQVdNSmo0LzRLWEtRUHltCklXVnJSc3JnY05rbnM1QVJHdEp4a0NmZkVxNzFlaCtZZTlZOEpwd2NvMXAzdXJvVXA5azdDSzVXRzVWZk5yblEKelVxV3pkUjBTR2x4R3ZraTc2SE5WamJpRC84amd5aFVHYWVYN3pNRHFYUU9SUTVlRUtOa0IxMHU5Q3dWNmpFPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
