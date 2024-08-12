@@ -13,12 +13,12 @@ spec:
     server:
       extraEnvironmentVars:
         VAULT_SEAL_TYPE: awskms
-        VAULT_AWSKMS_SEAL_KEY_ID: f8bbed84-707a-4b77-af45-b1804e794c69
+        VAULT_AWSKMS_SEAL_KEY_ID: 27383ff4-793c-4053-aa2f-88c4f0cc6f07
         AWS_REGION: eu-west-2
 
       serviceAccount:
         annotations:
-          eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/albefaedda-vault
+          eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/alberto-vault
     ui:
       annotations:
-        external-dns.alpha.kubernetes.io/hostname: vault.albefaedda.local
+        external-dns.alpha.kubernetes.io/hostname: vault.alberto.local
