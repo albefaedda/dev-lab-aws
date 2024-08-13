@@ -11,9 +11,9 @@ metadata:
 spec:
   values:
     autoDiscovery:
-      clusterName: faedda-eks-1
+      clusterName: alberto-eks-1
     awsRegion: eu-west-2
     rbac:
       serviceAccount:
         annotations:
-          eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/faedda-cluster-autoscaler
+          eks.amazonaws.com/role-arn: arn:aws:iam::492737776546:role/alberto-cluster-autoscaler
