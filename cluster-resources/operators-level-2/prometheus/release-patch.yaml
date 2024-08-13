@@ -18,22 +18,22 @@ spec:
       ingress:
         enabled: true
         annotations:
-          external-dns.alpha.kubernetes.io/hostname: prometheus.faedda.local
+          external-dns.alpha.kubernetes.io/hostname: prometheus.alberto.local
         hosts:
-          - prometheus.faedda.local
+          - prometheus.alberto.local
         tls:
           - secretName: prometheus-cert
             hosts:
-              - prometheus.faedda.local
+              - prometheus.alberto.local
         pathType: Prefix
 
     grafana:
       ingress:
         annotations:
-          external-dns.alpha.kubernetes.io/hostname: grafana.faedda.local
+          external-dns.alpha.kubernetes.io/hostname: grafana.alberto.local
         hosts:
-          - grafana.faedda.local
+          - grafana.alberto.local
         tls:
           - secretName: grafana-cert
             hosts:
-              - grafana.faedda.local
+              - grafana.alberto.local
