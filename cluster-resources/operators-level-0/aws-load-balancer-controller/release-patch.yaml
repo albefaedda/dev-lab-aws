@@ -13,7 +13,7 @@ metadata:
   namespace: kube-system
 spec:
   values:
-    clusterName: faedda-eks-1
+    clusterName: alberto-eks-1
     ingressClassParams:
       spec:
         tags:
