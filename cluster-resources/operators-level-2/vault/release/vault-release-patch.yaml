@@ -13,7 +13,7 @@ spec:
     server:
       extraEnvironmentVars:
         VAULT_SEAL_TYPE: awskms
-        VAULT_AWSKMS_SEAL_KEY_ID: 76dd7012-9271-43a0-b72c-e32051ceeef9
+        VAULT_AWSKMS_SEAL_KEY_ID: ce96cc3f-943c-4694-bbb6-2bcf002dad13
         AWS_REGION: eu-west-2
 
       serviceAccount:
